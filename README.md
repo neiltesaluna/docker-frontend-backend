@@ -1,4 +1,3 @@
-# docker-compose-python
 ## Flask using docker-compose to spin up a Backend and Frontend service  
 ### Building and Starting both services    
 
