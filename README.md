@@ -1,4 +1,4 @@
-## Flask using docker-compose to spin up a Backend and Frontend service  
+## Using docker-compose to spin up a Backend and Frontend service built on Flask 
 ### Building and Starting both services    
 
 We can spin up both the fontend and backend service using: `> docker-compose up`  
