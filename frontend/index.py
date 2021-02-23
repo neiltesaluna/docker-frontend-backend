@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET','POST'])
 def index():
 
-    req_data = requests.get('http://backend-service')
+    req_data = requests.get('http://backend-service:5001')
     json_data = req_data.json()
 
     return render_template('index.html', json_data=json_data)
