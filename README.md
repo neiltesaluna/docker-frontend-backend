@@ -31,6 +31,6 @@ The access backend service http://0.0.0.0:5001
   <br />
   
   
-### Stops and removes all docker containers, images, volumes and networks created.
+### Stops and removes all docker containers, images, volumes and networks created
   
 We can stop and remove the frontend and backend service using: `> docker-compose down`
