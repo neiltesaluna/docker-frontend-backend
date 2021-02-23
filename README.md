@@ -1,5 +1,6 @@
 # Docker Compose using Flask to spin up a Backend and Frontend service  
-  
+### Building and Starting both services    
+
 We can spin up both the fontend and backend service using: `> docker-compose up`  
   <br />
 ### Building and Starting individual services  
@@ -27,3 +28,9 @@ The backend service is using PORT 5001
   
 The access frontend service http://0.0.0.0:5000  
 The access backend service http://0.0.0.0:5001
+  <br />
+  
+  
+### Stops and removes all docker containers, images, volumes and networks created.
+  
+We can stop and remove the frontend and backend service using: `> docker-compose down`
