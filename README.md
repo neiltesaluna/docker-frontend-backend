@@ -22,9 +22,9 @@ to spin up the backend service we can use: `> docker-compose stop backend-servic
 
 ### Accessing these services on the browser  
 
-The host for both these services run on IP 0.0.0.0  
-The frontend service is using port 5000  
-The backend service is using PORT 5001  
+The host for both these services run on **IP 0.0.0.0**  
+The frontend service is using **PORT 5000**  
+The backend service is using **PORT 5001**  
   
 The access frontend service http://0.0.0.0:5000  
 The access backend service http://0.0.0.0:5001
