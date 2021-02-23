@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 import requests
 
 app = Flask(__name__)
@@ -8,9 +8,9 @@ app = Flask(__name__)
 def index():
 
     req_data = requests.get('http://backend-service')
-    return f'''
-    <h1>Product list {req_data.text}</h1>
-    '''
+    json_data = req_data.json()
+
+    return render_template('index.html', json_data=json_data)
 
 
 
