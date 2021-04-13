@@ -29,7 +29,10 @@ The backend service is using **PORT 5001**
 The access frontend service http://0.0.0.0:5000  
 The access backend service http://0.0.0.0:5001
 
-You can also use these two routes: / and /products
+You can also use these two routes:  
+**/ :** to show the **home** response from the backend  
+**/products :** to show the **products** response from the backend
+
   <br />
   
   
